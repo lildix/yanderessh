@@ -4,7 +4,7 @@ import paramiko,sys
 if len(sys.argv) != 4:
   print ("########### LIL DIX - YANDERESSH ###########")
   print ("- - - - - -  - - -  - - - - - - - - - - - - -")
-  print ("Example: python yanderessh.py target user wordlist.txt")
+  print ("Example: python3 yanderessh.py target user wordlist.txt")
   sys.exit()
 
 target = sys.argv[1]
